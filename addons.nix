@@ -275,6 +275,30 @@
       "platforms" = lib.platforms.all;
     };
   };
+  "foxyproxy-standard" = buildFirefoxXpiAddon {
+    "pname" = "foxyproxy-standard";
+    "version" = "8.10";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/4425860/foxyproxy_standard-8.10.xpi";
+    "sha256" = "80ab6ac87b8c8ef92b92f61dc3508e8ba42e4bd736ac03b3970e2a25457549dc";
+    "addonId" = "foxyproxy@eric.h.jung";
+    "meta" = {
+      "homepage" = "https://getfoxyproxy.org";
+      "description" =
+        "FoxyProxy is an open-source, advanced proxy management tool that completely replaces Firefox's limited proxying capabilities. No paid accounts are necessary; bring your own proxies or buy from any vendor. The original proxy tool, since 2006.";
+      "license" = lib.licenses.gpl2;
+      "mozPermissions" = [
+        "downloads"
+        "notifications"
+        "proxy"
+        "storage"
+        "tabs"
+        "webRequest"
+        "webRequestBlocking"
+        "<all_urls>"
+      ];
+      "platforms" = lib.platforms.all;
+    };
+  };
   "multi-account-containers" = buildFirefoxXpiAddon {
     "pname" = "multi-account-containers";
     "version" = "8.2.0";
