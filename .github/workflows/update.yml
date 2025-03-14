@@ -15,6 +15,11 @@ jobs:
       with:
         diagnostic-endpoint: "http://127.0.0.1:80"
     - run: nix flake update
+    - name: Upload flake.lock
+      uses: actions/upload-artifact@v4
+      with:
+        name: updated-flake-lock
+        path: flake.lock
 
   update-addons:
     if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
@@ -26,6 +31,11 @@ jobs:
       with:
         diagnostic-endpoint: "http://127.0.0.1:80"
     - run: sh ./update.sh
+    - name: Upload addons.nix
+      uses: actions/upload-artifact@v4
+      with:
+        name: updated-addons-nix
+        path: addons.nix
 
   tests:
     needs: [update-flake, update-addons]
@@ -38,6 +48,14 @@ jobs:
     - uses: DeterminateSystems/nix-installer-action@main
       with:
         diagnostic-endpoint: "http://127.0.0.1:80"
+    - name: Download updated flake.lock
+      uses: actions/download-artifact@v4
+      with:
+        name: updated-flake-lock
+    - name: Download updated addons.nix
+      uses: actions/download-artifact@v4
+      with:
+        name: updated-addons-nix
     - run: nix flake check
     - run: nix build .#all-addons-combined
 
@@ -47,6 +65,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
+    - name: Download updated flake.lock
+      uses: actions/download-artifact@v4
+      with:
+        name: updated-flake-lock
+    - name: Download updated addons.nix
+      uses: actions/download-artifact@v4
+      with:
+        name: updated-addons-nix
     - run: git config --global user.email "action@github.com"
     - run: git config --global user.name "GitHub Action"
     - run: git add flake.lock addons.nix
