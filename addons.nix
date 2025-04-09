@@ -277,9 +277,9 @@
   };
   "foxyproxy-standard" = buildFirefoxXpiAddon {
     "pname" = "foxyproxy-standard";
-    "version" = "8.10";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/4425860/foxyproxy_standard-8.10.xpi";
-    "sha256" = "80ab6ac87b8c8ef92b92f61dc3508e8ba42e4bd736ac03b3970e2a25457549dc";
+    "version" = "9.0";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/4469750/foxyproxy_standard-9.0.xpi";
+    "sha256" = "53b75e90fee623dcdc5e26c396d2a68f2caeeb91d7030db42ec1251ffb5afdac";
     "addonId" = "foxyproxy@eric.h.jung";
     "meta" = {
       "homepage" = "https://getfoxyproxy.org";
@@ -287,14 +287,14 @@
         "FoxyProxy is an open-source, advanced proxy management tool that completely replaces Firefox's limited proxying capabilities. No paid accounts are necessary; bring your own proxies or buy from any vendor. The original proxy tool, since 2006.";
       "license" = lib.licenses.gpl2;
       "mozPermissions" = [
+        "contextMenus"
         "downloads"
         "notifications"
         "proxy"
         "storage"
         "tabs"
         "webRequest"
-        "webRequestBlocking"
-        "<all_urls>"
+        "webRequestAuthProvider"
       ];
       "platforms" = lib.platforms.all;
     };
@@ -354,9 +354,9 @@
   };
   "refined-github-" = buildFirefoxXpiAddon {
     "pname" = "refined-github-";
-    "version" = "25.3.19";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/4457405/refined_github-25.3.19.xpi";
-    "sha256" = "91ee42ba05764e1e34087be2cce1b5d7b5456d6e4d508e7f3644f9cc508b41a1";
+    "version" = "25.4.8";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/4470107/refined_github-25.4.8.xpi";
+    "sha256" = "4e07f83622497c5ea1e2fb39f94d910233cdf467a562df4b37dc39adea6fba47";
     "addonId" = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
     "meta" = {
       "homepage" = "https://github.com/refined-github/refined-github";
