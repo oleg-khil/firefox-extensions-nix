@@ -301,10 +301,10 @@
   };
   "multi-account-containers" = buildFirefoxXpiAddon {
     "pname" = "multi-account-containers";
-    "version" = "8.2.0";
+    "version" = "8.3.0";
     "url" =
-      "https://addons.mozilla.org/firefox/downloads/file/4355970/multi_account_containers-8.2.0.xpi";
-    "sha256" = "1ce35650853973572bc1ce770076d93e00b6b723b799f7b90c3045268c64b422";
+      "https://addons.mozilla.org/firefox/downloads/file/4494279/multi_account_containers-8.3.0.xpi";
+    "sha256" = "cf7888e9c05713256ea457a4250bf6da0e484e49f7e658703ad7232f8c138230";
     "addonId" = "@testpilot-containers";
     "meta" = {
       "homepage" = "https://github.com/mozilla/multi-account-containers/#readme";
