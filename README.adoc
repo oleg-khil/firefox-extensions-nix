@@ -1,0 +1,25 @@
+= firefox-extensions-nix
+:reproducible:
+
+Reimplementation of https://git.sr.ht/~rycee/mozilla-addons-to-nix[mozilla-addons-to-nix] and https://gitlab.com/rycee/nur-expressions/-/tree/master/pkgs/firefox-addons[NUR firefox-addons]
+in a much simpler form consisting of ruby script and GitHub Actions configuration to automatically update both addons and flake inputs.
+ +
+Intended to be used with https://github.com/nix-community/home-manager[Home Manager's] firefox (and firefox-based browsers) module
+
+== Usage
+
+1. Add to flake inputs, like
++
+[source,nix]
+----
+firefox-addons.url = "github:oleg-khil/firefox-extensions-nix";
+# optionally override nixpkgs to your version
+# firefox-addons.inputs.nixpkgs.follows = "nixpkgs";
+----
+
+2. Specify addons you want in https://nix-community.github.io/home-manager/options.xhtml#opt-programs.firefox.profiles._name_.extensions[programs.firefox.profiles.<name>.extensions] option like
++
+[source,nix]
+----
+inputs.firefox-addons.packages."${pkgs.system}".ublock-origin
+----
