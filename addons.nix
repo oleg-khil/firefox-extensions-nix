@@ -299,6 +299,33 @@
       "platforms" = lib.platforms.all;
     };
   };
+  "greasemonkey" = buildFirefoxXpiAddon {
+    "pname" = "greasemonkey";
+    "version" = "4.13";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/4332091/greasemonkey-4.13.xpi";
+    "sha256" = "31b9e9521eac579114ed20616851f4f984229fbe6d8ebd4dc4799eb48c59578c";
+    "addonId" = "{e4a8a97b-f2ed-450b-b12d-ee082ba24781}";
+    "meta" = {
+      "homepage" = "http://www.greasespot.net/";
+      "description" =
+        "Customize the way a web page displays or behaves, by using small bits of JavaScript.";
+      "license" = lib.licenses.mit;
+      "mozPermissions" = [
+        "<all_urls>"
+        "clipboardWrite"
+        "cookies"
+        "downloads"
+        "notifications"
+        "storage"
+        "tabs"
+        "unlimitedStorage"
+        "webNavigation"
+        "webRequest"
+        "webRequestBlocking"
+      ];
+      "platforms" = lib.platforms.all;
+    };
+  };
   "multi-account-containers" = buildFirefoxXpiAddon {
     "pname" = "multi-account-containers";
     "version" = "8.3.0";
