@@ -449,9 +449,9 @@
   };
   "sponsorblock" = buildFirefoxXpiAddon {
     "pname" = "sponsorblock";
-    "version" = "5.12.4";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/4501802/sponsorblock-5.12.4.xpi";
-    "sha256" = "789c63e5cfc74aa11661459de7ab87c0143cca5a0944aab700a6044497bf40eb";
+    "version" = "5.13.2";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/4523436/sponsorblock-5.13.2.xpi";
+    "sha256" = "5474885c40991404f1347db69933da631cc24318abe720efe4ba8df5196f0faa";
     "addonId" = "sponsorBlocker@ajay.app";
     "meta" = {
       "homepage" = "https://sponsor.ajay.app";
