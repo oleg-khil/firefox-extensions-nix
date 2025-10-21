@@ -328,10 +328,10 @@
   };
   "multi-account-containers" = buildFirefoxXpiAddon {
     "pname" = "multi-account-containers";
-    "version" = "8.3.1";
+    "version" = "8.3.3";
     "url" =
-      "https://addons.mozilla.org/firefox/downloads/file/4597341/multi_account_containers-8.3.1.xpi";
-    "sha256" = "cfb4c48c2be496c41ae4ed0faaa9323b174c31ca9fcbd2ab141bce6e777863c7";
+      "https://addons.mozilla.org/firefox/downloads/file/4601927/multi_account_containers-8.3.3.xpi";
+    "sha256" = "967c62fe632fdcc308b3ce65ce1460a5437dffc57f8ef7305903cbcaf067a73f";
     "addonId" = "@testpilot-containers";
     "meta" = {
       "homepage" = "https://github.com/mozilla/multi-account-containers/#readme";
@@ -449,9 +449,9 @@
   };
   "sponsorblock" = buildFirefoxXpiAddon {
     "pname" = "sponsorblock";
-    "version" = "6.0";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/4580722/sponsorblock-6.0.xpi";
-    "sha256" = "a7081b4d16cf3d81ce44418a92fcadbdb5c10acacfe39cc2a9854b840e4ea84c";
+    "version" = "6.0.3";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/4598130/sponsorblock-6.0.3.xpi";
+    "sha256" = "accbfb3bb634834a16685cbc66c1a8e5e8ae51c075c7c86d4b7141c67ad4c88b";
     "addonId" = "sponsorBlocker@ajay.app";
     "meta" = {
       "homepage" = "https://sponsor.ajay.app";
