@@ -255,9 +255,9 @@
   };
   "darkreader" = buildFirefoxXpiAddon {
     "pname" = "darkreader";
-    "version" = "4.9.112";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/4598977/darkreader-4.9.112.xpi";
-    "sha256" = "dc1fc27b5e61662f1e1e8a60cbf8e11a77443888e40603f88db7c6b9e4ecb437";
+    "version" = "4.9.113";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/4612789/darkreader-4.9.113.xpi";
+    "sha256" = "e7e9dbbb9136364d5174b310e0377edc5bd010a33f2d1f1e90269b56442303c6";
     "addonId" = "addon@darkreader.org";
     "meta" = {
       "homepage" = "https://darkreader.org/";
@@ -421,9 +421,9 @@
   };
   "sidebery" = buildFirefoxXpiAddon {
     "pname" = "sidebery";
-    "version" = "5.3.3";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/4442132/sidebery-5.3.3.xpi";
-    "sha256" = "a4f9a8305f93b7d6b95f27943ecd1b3d422773fae5b802beac3af4a3e3a7476b";
+    "version" = "5.4.0";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/4613339/sidebery-5.4.0.xpi";
+    "sha256" = "184a3157df4c5b018daff5c63b8bea120f6d34e6f298c0fbed968b092508f599";
     "addonId" = "{3c078156-979c-498b-8990-85f7987dd929}";
     "meta" = {
       "homepage" = "https://github.com/mbnuqw/sidebery";
