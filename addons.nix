@@ -255,9 +255,9 @@
   };
   "darkreader" = buildFirefoxXpiAddon {
     "pname" = "darkreader";
-    "version" = "4.9.113";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/4612789/darkreader-4.9.113.xpi";
-    "sha256" = "e7e9dbbb9136364d5174b310e0377edc5bd010a33f2d1f1e90269b56442303c6";
+    "version" = "4.9.115";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/4619318/darkreader-4.9.115.xpi";
+    "sha256" = "d3f800fc8c50d24578c25dad35a8e2e528f7a43eb45ee355ceb346d4fb7cc48f";
     "addonId" = "addon@darkreader.org";
     "meta" = {
       "homepage" = "https://darkreader.org/";
@@ -381,9 +381,9 @@
   };
   "refined-github-" = buildFirefoxXpiAddon {
     "pname" = "refined-github-";
-    "version" = "25.11.4";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/4612464/refined_github-25.11.4.xpi";
-    "sha256" = "240ccda8bd39c1e0d2d0eb4113825856cf7f2bdabd6b323ee164f02ca11a7dea";
+    "version" = "25.11.19";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/4623433/refined_github-25.11.19.xpi";
+    "sha256" = "ce884bcfef6ecf0a9b5f26f2fa19f26aaa160a605b201e47f2a07467350183b6";
     "addonId" = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
     "meta" = {
       "homepage" = "https://github.com/refined-github/refined-github";
