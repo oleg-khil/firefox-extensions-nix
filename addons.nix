@@ -421,9 +421,9 @@
   };
   "sidebery" = buildFirefoxXpiAddon {
     "pname" = "sidebery";
-    "version" = "5.4.0";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/4613339/sidebery-5.4.0.xpi";
-    "sha256" = "184a3157df4c5b018daff5c63b8bea120f6d34e6f298c0fbed968b092508f599";
+    "version" = "5.5.0";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/4688454/sidebery-5.5.0.xpi";
+    "sha256" = "8d57ad35177442f6a89c3d319fa3e0586376a1f2b72f0fd3032386e5f3505db8";
     "addonId" = "{3c078156-979c-498b-8990-85f7987dd929}";
     "meta" = {
       "homepage" = "https://github.com/mbnuqw/sidebery";
