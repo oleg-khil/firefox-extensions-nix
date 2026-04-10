@@ -255,9 +255,9 @@
   };
   "darkreader" = buildFirefoxXpiAddon {
     "pname" = "darkreader";
-    "version" = "4.9.123";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/4710145/darkreader-4.9.123.xpi";
-    "sha256" = "9a3e6cdac53f20257bd81264532c16afedad00eb2623bded89ed2b30b1e40243";
+    "version" = "4.9.124";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/4748915/darkreader-4.9.124.xpi";
+    "sha256" = "ce703c98545999cee0b5c416f4fd4a3080f1405440f005d5c5cf23ac0868bcbd";
     "addonId" = "addon@darkreader.org";
     "meta" = {
       "homepage" = "https://darkreader.org/";
@@ -449,9 +449,9 @@
   };
   "sponsorblock" = buildFirefoxXpiAddon {
     "pname" = "sponsorblock";
-    "version" = "6.1.2";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/4644570/sponsorblock-6.1.2.xpi";
-    "sha256" = "598f66c9eb6bbab2bd5f87376b632a5860f442d3694e233610f5b37f8b6e3f10";
+    "version" = "6.1.3";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/4744354/sponsorblock-6.1.3.xpi";
+    "sha256" = "cc6ee2918298ce6a1754b462d0b54d9a96f545f65cd3ac69016332ebca1d100b";
     "addonId" = "sponsorBlocker@ajay.app";
     "meta" = {
       "homepage" = "https://sponsor.ajay.app";
