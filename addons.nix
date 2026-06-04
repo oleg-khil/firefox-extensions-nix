@@ -288,7 +288,7 @@
     "sha256" = "8db1c64799a60f7121d51a6e9f6b041871598344927c95afe830c27880f0885d";
     "addonId" = "foxyproxy@eric.h.jung";
     "meta" = {
-      "homepage" = "https://getfoxyproxy.org";
+      "homepage" = "https://getfoxyproxy.org/";
       "description" =
         "FoxyProxy is an open-source, advanced proxy management tool that completely replaces Firefox's limited proxying capabilities. No paid accounts are necessary; bring your own proxies or buy from any vendor. The original proxy tool, since 2006.";
       "license" = lib.licenses.gpl2;
