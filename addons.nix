@@ -334,10 +334,10 @@
   };
   "multi-account-containers" = buildFirefoxXpiAddon {
     "pname" = "multi-account-containers";
-    "version" = "8.3.7";
+    "version" = "8.3.8";
     "url" =
-      "https://addons.mozilla.org/firefox/downloads/file/4733069/multi_account_containers-8.3.7.xpi";
-    "sha256" = "7f6f5ef7b106d33d1b99d2c5e53a2065d07f784b1852fe9b9f78394e9b405165";
+      "https://addons.mozilla.org/firefox/downloads/file/4867303/multi_account_containers-8.3.8.xpi";
+    "sha256" = "306a294845363f15a7478e9620b43f91ea1761088727808e2327bfff16c14447";
     "addonId" = "@testpilot-containers";
     "meta" = {
       "homepage" = "https://github.com/mozilla/multi-account-containers/#readme";
@@ -387,9 +387,9 @@
   };
   "refined-github-" = buildFirefoxXpiAddon {
     "pname" = "refined-github-";
-    "version" = "26.6.7";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/4840557/refined_github-26.6.7.xpi";
-    "sha256" = "7274247b34b4bab57e73c8058ddd1a459e323bea717d9ec16d1ccc8385791bd0";
+    "version" = "26.7";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/4876625/refined_github-26.7.xpi";
+    "sha256" = "e3eeffcef15770b97042e2b6caf69b67984d2398b124b75778f176f3b9eff373";
     "addonId" = "{a4c4eda4-fb84-4a84-b4a1-f7c1cbf2a1ad}";
     "meta" = {
       "homepage" = "https://github.com/refined-github/refined-github";
