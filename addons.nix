@@ -455,9 +455,9 @@
   };
   "sponsorblock" = buildFirefoxXpiAddon {
     "pname" = "sponsorblock";
-    "version" = "6.1.5";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/4773757/sponsorblock-6.1.5.xpi";
-    "sha256" = "d8ec229aecb0b78e307a86d436496891b755f874c24c0f7324551c7ffd1b2e14";
+    "version" = "6.1.6";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/4870235/sponsorblock-6.1.6.xpi";
+    "sha256" = "ab8e4cc26e68070c3c6f379b253330b95677e2d25b52149580daa879cf9ba954";
     "addonId" = "sponsorBlocker@ajay.app";
     "meta" = {
       "homepage" = "https://sponsor.ajay.app";
@@ -521,9 +521,9 @@
   };
   "ublock-origin" = buildFirefoxXpiAddon {
     "pname" = "ublock-origin";
-    "version" = "1.71.0";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/4814095/ublock_origin-1.71.0.xpi";
-    "sha256" = "47f788a1fc2c014830b30bb0ef9588615701b98c5265fb19b8cf4ba779849feb";
+    "version" = "1.72.0";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/4872816/ublock_origin-1.72.0.xpi";
+    "sha256" = "79cd426ab599801c59dfe9895cb4b8002faf3da059f7111c2721ac10168a3b64";
     "addonId" = "uBlock0@raymondhill.net";
     "meta" = {
       "homepage" = "https://github.com/gorhill/uBlock#ublock-origin";
