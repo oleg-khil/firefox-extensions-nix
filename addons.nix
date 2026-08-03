@@ -283,9 +283,9 @@
   };
   "foxyproxy-standard" = buildFirefoxXpiAddon {
     "pname" = "foxyproxy-standard";
-    "version" = "9.4";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/4925065/foxyproxy_standard-9.4.xpi";
-    "sha256" = "b2e979001f2ee7402cf277e1a8650a7c4aeb8772ec6cd4310e2802d27fc3239d";
+    "version" = "9.5";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/4933543/foxyproxy_standard-9.5.xpi";
+    "sha256" = "05d1b2002db53a48939531f6023b189621f9062b0f8c9631ee099bb08a21d346";
     "addonId" = "foxyproxy@eric.h.jung";
     "meta" = {
       "homepage" = "https://getfoxyproxy.org/";
