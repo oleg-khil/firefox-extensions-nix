@@ -215,9 +215,9 @@
   };
   "auto-tab-discard" = buildFirefoxXpiAddon {
     "pname" = "auto-tab-discard";
-    "version" = "0.6.7";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/4045009/auto_tab_discard-0.6.7.xpi";
-    "sha256" = "89e59b8603c444258c89a507d7126be52ad7a35e4f7b8cfbca039b746f70b5d5";
+    "version" = "0.6.9.1";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/4939638/auto_tab_discard-0.6.9.1.xpi";
+    "sha256" = "babc34119d8ace6ecc4e9affb6cf68c638d25a68f63bf028f720d6029364cccb";
     "addonId" = "{c2c003ee-bd69-42a2-b0e9-6f34222cb046}";
     "meta" = {
       "homepage" = "https://webextension.org/listing/tab-discard.html";
@@ -230,7 +230,7 @@
         "contextMenus"
         "notifications"
         "alarms"
-        "*://*/*"
+        "scripting"
         "<all_urls>"
       ];
       "platforms" = lib.platforms.all;
@@ -283,9 +283,9 @@
   };
   "foxyproxy-standard" = buildFirefoxXpiAddon {
     "pname" = "foxyproxy-standard";
-    "version" = "9.5";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/4933543/foxyproxy_standard-9.5.xpi";
-    "sha256" = "05d1b2002db53a48939531f6023b189621f9062b0f8c9631ee099bb08a21d346";
+    "version" = "9.6";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/4939922/foxyproxy_standard-9.6.xpi";
+    "sha256" = "e7321cc8767f80f5648378aade0ce19a7ee7af3f5cdc17b11f6fa9223fd1a244";
     "addonId" = "foxyproxy@eric.h.jung";
     "meta" = {
       "homepage" = "https://getfoxyproxy.org/";
@@ -521,9 +521,9 @@
   };
   "ublock-origin" = buildFirefoxXpiAddon {
     "pname" = "ublock-origin";
-    "version" = "1.72.2";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/4888680/ublock_origin-1.72.2.xpi";
-    "sha256" = "40c315b0da7871868155ecfae7a50a58dfa0920aebd865e008214986f1b7c578";
+    "version" = "1.73.0";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/4940584/ublock_origin-1.73.0.xpi";
+    "sha256" = "bccc51a773150af4af6e1fd62c7bfdeb7238b79ff2381b998fa9f2e38f64786a";
     "addonId" = "uBlock0@raymondhill.net";
     "meta" = {
       "homepage" = "https://github.com/gorhill/uBlock#ublock-origin";
