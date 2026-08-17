@@ -215,9 +215,9 @@
   };
   "auto-tab-discard" = buildFirefoxXpiAddon {
     "pname" = "auto-tab-discard";
-    "version" = "0.7.1";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/4959845/auto_tab_discard-0.7.1.xpi";
-    "sha256" = "3eea86e33f1716026b9e3d7d9d0bde3c91163d420081290530d29a2fefedd683";
+    "version" = "0.7.2";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/4962080/auto_tab_discard-0.7.2.xpi";
+    "sha256" = "ff0ed41080d4596a3577e1751b6a5780ab4672114ca91b79accf024083a80d3b";
     "addonId" = "{c2c003ee-bd69-42a2-b0e9-6f34222cb046}";
     "meta" = {
       "homepage" = "https://webextension.org/listing/tab-discard.html";
