@@ -261,9 +261,9 @@
   };
   "darkreader" = buildFirefoxXpiAddon {
     "pname" = "darkreader";
-    "version" = "4.9.130";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/4998573/darkreader-4.9.130.xpi";
-    "sha256" = "075d5457316af21d62a39a290b31fbf71f514dfc8c3f6a87376fd50f54ef4c9c";
+    "version" = "4.9.131";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/5029993/darkreader-4.9.131.xpi";
+    "sha256" = "8be2371a105c298d159180c623c1fc133ed10aef56ae2bf2c98e899bd0e39d20";
     "addonId" = "addon@darkreader.org";
     "meta" = {
       "homepage" = "https://darkreader.org/";
@@ -283,9 +283,9 @@
   };
   "foxyproxy-standard" = buildFirefoxXpiAddon {
     "pname" = "foxyproxy-standard";
-    "version" = "9.7";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/4955558/foxyproxy_standard-9.7.xpi";
-    "sha256" = "3ab91ca2a6cac925bc7097c46948573fefe4e3fddcbc27dda755401419c4e5d7";
+    "version" = "9.8";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/5029813/foxyproxy_standard-9.8.xpi";
+    "sha256" = "37350f3f57ea0f88ed12513fa233c4486c006ff352129d444a12da4e22280403";
     "addonId" = "foxyproxy@eric.h.jung";
     "meta" = {
       "homepage" = "https://getfoxyproxy.org/";
