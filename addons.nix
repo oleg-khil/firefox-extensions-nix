@@ -283,9 +283,9 @@
   };
   "foxyproxy-standard" = buildFirefoxXpiAddon {
     "pname" = "foxyproxy-standard";
-    "version" = "9.8";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/5029813/foxyproxy_standard-9.8.xpi";
-    "sha256" = "37350f3f57ea0f88ed12513fa233c4486c006ff352129d444a12da4e22280403";
+    "version" = "9.9";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/5198108/foxyproxy_standard-9.9.xpi";
+    "sha256" = "ba069f14843f33b3a36e4149dd63e3d05cea5362d108d69a0743975180471302";
     "addonId" = "foxyproxy@eric.h.jung";
     "meta" = {
       "homepage" = "https://getfoxyproxy.org/";
@@ -521,9 +521,9 @@
   };
   "ublock-origin" = buildFirefoxXpiAddon {
     "pname" = "ublock-origin";
-    "version" = "1.75.0";
-    "url" = "https://addons.mozilla.org/firefox/downloads/file/5034826/ublock_origin-1.75.0.xpi";
-    "sha256" = "5b74415860456370644bd80f16125e865b0e6c356bb5dfcfb84069967eaa5287";
+    "version" = "1.75.2";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/5199068/ublock_origin-1.75.2.xpi";
+    "sha256" = "b941eac9ac4b156edefa9273bdf5a313204919f751e1a86b8c81e254b9471599";
     "addonId" = "uBlock0@raymondhill.net";
     "meta" = {
       "homepage" = "https://github.com/gorhill/uBlock#ublock-origin";
