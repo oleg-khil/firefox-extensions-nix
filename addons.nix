@@ -213,6 +213,29 @@
       "platforms" = lib.platforms.all;
     };
   };
+  "auto-tab-discard" = buildFirefoxXpiAddon {
+    "pname" = "auto-tab-discard";
+    "version" = "0.7.7";
+    "url" = "https://addons.mozilla.org/firefox/downloads/file/5111461/auto_tab_discard-0.7.7.xpi";
+    "sha256" = "cdd4d4467e7e091469f6edad0213461d90736f6e7fc8234666525cca763753c3";
+    "addonId" = "{c2c003ee-bd69-42a2-b0e9-6f34222cb046}";
+    "meta" = {
+      "homepage" = "https://webextension.org/listing/tab-discard.html";
+      "description" =
+        "Increase browser speed and reduce memory load and when you have numerous open tabs.";
+      "license" = lib.licenses.mpl20;
+      "mozPermissions" = [
+        "idle"
+        "storage"
+        "contextMenus"
+        "notifications"
+        "alarms"
+        "scripting"
+        "<all_urls>"
+      ];
+      "platforms" = lib.platforms.all;
+    };
+  };
   "cookie-quick-manager" = buildFirefoxXpiAddon {
     "pname" = "cookie-quick-manager";
     "version" = "0.5rc2";
